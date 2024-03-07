@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    font-size: 50px;
+    float: right;
+  }
+
+  #clock {
+    font-size: 24px;
+  }
+
+
+  /* Add a note box */
+  #addNote {
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+
+  #addNote input {
+    border-color: black;
+    width: 200px;
+    margin: 0 20px 5px 10px;
+    font-size: 1.1em;
+  }
+
+  #addNote textarea {
+    border-color: black;
+    width: 200px;
+    height: 120px;
+    margin: 0 20px 5px 10px;
+    font-size: 1.6em;
+  }
+
+  #addNote select {
+    border-color: black;
+    width: 200px;
+    margin: 0 20px 5px 10px;
+    font-size: 1.1em;
+  }
+
+  #addNote button {
+    background-color: #F5BA13;
+    border: solid 1px black;
+    float:right;
+    margin: 5px 10px 0 0;
+    font-size: 1.1em;
+  }
+ 
+
+  /* Footer */
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+
+  /* Notes */
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+
+  #date {
+    float: right;
+  }
+
+  .note h1 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  #deleteButton {
+    background-color: #f5a9a4;
+    border: solid 1px black;
+    float:right;
+    font-size: 1.1em;
+  }
+  
